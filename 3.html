@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Random Integer Generator</title>
+  </head>
+  <body>
+    <h1>Random Integer Generator</h1>
+    <p id="randomNumber"></p>
+
+    <script src="random.js"></script>
+    <script>
+      // Call the randomInt function and display the result
+      var randomNumber = randomInt();
+      document.getElementById("randomNumber").innerHTML = randomNumber;
+    </script>
+  </body>
+</html>
+randominteger.js function randomInt() { return Math.floor(Math.random() * 100) +
+1; }
